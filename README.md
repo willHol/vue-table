@@ -22,7 +22,7 @@ This project contains a simple table component, which has sorting capabilities i
 We can add the component globally by modifying our main.js file as follows:
 
 ```
-import Table from './table.vue
+import Table from './table.vue'
 Vue.component('my-table', Table);
 ```
 
