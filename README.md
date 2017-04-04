@@ -42,11 +42,11 @@ The data must be served as parsed JSON in the following form
 
 ```
 {
-  data: [
-         {name: "Bernard", age: 50, weight: 200},
-         {name: "Pixie", age: 12, weight: 20},
-         {name: "Lion", age: 200, weight: 1000},
-         {name: "Will", age: 80, weight: 80},
+  "data": [
+         {"name": "Bernard", "age": 50, "weight": 200},
+         {"name": "Pixie", "age": 12, "weight": 20},
+         {"name": "Lion", "age": 200, "weight": 1000},
+         {"name": "Will", "age": 80, "weight": 80},
        ]
 }
 ```
