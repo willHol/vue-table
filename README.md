@@ -28,7 +28,9 @@ Vue.component('my-table', Table);
 
 Then we can use the component:
 
-`<my-table action="http://localhost:5000/data1" caption="Hello:" class="table table-bordered"></my-table>`
+``` html
+<my-table action="http://localhost:5000/data1" caption="Hello:" class="table table-bordered"></my-table>
+```
 
 The action attribute represents the URI where table data can be obtained from and caption attribute provides an optional caption.
 
@@ -40,7 +42,7 @@ I have included an express server which serves the table data, this server may b
 # Data format
 The data must be served as parsed JSON in the following form
 
-```
+``` json
 {
   "data": [
          {"name": "Bernard", "age": 50, "weight": 200},
