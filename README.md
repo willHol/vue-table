@@ -18,7 +18,7 @@ npm run build
 # Description
 This project contains a simple table component, which has sorting capabilities in each column.
 
-#Usage
+# Usage
 We can add the component globally by modifying our main.js file as follows:
 
 ```
@@ -32,12 +32,12 @@ Then we can use the component:
 
 The action attribute represents the URI where table data can be obtained from and caption attribute provides an optional caption.
 
-#Server
+# Server
 I have included an express server which serves the table data, this server may be launched as follows:
 
 `npm run server`
 
-#Data format
+# Data format
 The data must be served as parsed JSON in the following form
 
 ```
