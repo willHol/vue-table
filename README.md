@@ -2,6 +2,8 @@
 
 > A simple vue.js table component
 
+![screen shot 2017-04-05 at 2 56 45 pm](https://cloud.githubusercontent.com/assets/24377188/24687855/34ac2532-1a10-11e7-8f57-e1aa7104d045.png)
+
 ## Build Setup
 
 ``` bash
